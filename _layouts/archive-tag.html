@@ -18,6 +18,9 @@ layout: default
           <td>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </td>
+          <td>
+            <p class="post-abstract" >{{ post.description}}</p>
+          </td>
         </tr>
       {% endfor %}
       </table>
