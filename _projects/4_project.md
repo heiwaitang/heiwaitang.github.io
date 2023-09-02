@@ -1,80 +1,24 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title:  HKSAR's Role in the GBA’s Path to Becoming a Global Innovation Hub
+description: 
+img: assets/img/GBA.png
 importance: 3
-category: fun
+category: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For decades, Hong Kong has played an important role as an economic and financial gateway between Mainland China and the rest of the world. However, the ongoing deglobalisation trend, partly accelerated by geopolitical tensions and the COVID-19 pandemic, has posed significant challenges to the city’s role as a trade and financial intermediary. Moreover, despite the stellar performance of the city’s financial sector during the COVID pandemic, increasing specialization in finance and the real estate sectors have contributed significantly to the rise in income and wealth inequalities in the city. A more diversified economy would help foster sustainable and inclusive economic growth in Hong Kong.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The question is, in which direction should Hong Kong diversify its economy? We think the overall strategy should be one that can help Hong Kong leverage the opportunities arising from the pandemic and geopolitical tensions. The overdue economic transformation should be one that (1) fosters the development of a knowledge economy buttressed on science and technology (S&T) and research and development (R&D); and (2) enhances its effective economic collaboration and integration with other Greater Bay Area (GBA) cities according to Hong Kong’s comparative advantages, which shall contribute to the development of the region on the one hand, and overcome Hong Kong’s limitation on the other.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+At the end of our study, we recommend the HKSAR government to consider the following policy measures.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+1. Hong Kong needs a strengthened R&D-enhancing policy. This includes but is not limited to R&D tax reduction and improved property rights sharing between researchers and universities in order to incentivize more applications of basic research and development.
+2. Hong Kong needs enhanced measures to attract more international innovative firms to create the external economy of scale in R&D and innovation. These measures include reducing labor costs and land costs in science parks through various incentive programs. One possibility is to build governments’ subsidized apartments to house local and foreign talents in Hong Kong Science and Technology Parks Corporation, or provide rental subsidies to young talents who work in strategic industries. In addition, Hong Kong needs to improve its current talent policies by launching an enhanced talent program and simplifying immigration policy for international talents, especially in STEM fields.
+3. A big challenge for Hong Kong is to keep existing talents. The current double stamp tax policy significantly raises the costs for the newly immigrant talents to purchase an apartment, which in turn increases the likelihood that they leave Hong Kong in the short run. The HKSAR government may consider a “buy-pay- rebate” double stamp tax policy, allowing non-residents to purchase apartments by paying a double stamp tax first, but which be fully rebated if they subsequently obtain permanent residency. This measure encourages new talents to purchase property, increasing their probability of staying in Hong Kong.
+4. Different local governments in the GBA can enhance cross-border collaboration between Hong Kong businesses and those in other GBA cities by further reducing border frictions against integration, providing more information services to both employers and employees, increasing cross-border business exchanges, and improving cross-border labor mobility by providing mutually acceptable medical and educational services for people who are willing to work in any city in the GBA.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<a href="{{ '/assets/pdf/green_papers_2022_hwt_eng3_global_inno_hub.pdf' | relative_url }}">Reference: HKSAR's Role in the GBA’s Path to Becoming a Global Innovation Hub</a>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

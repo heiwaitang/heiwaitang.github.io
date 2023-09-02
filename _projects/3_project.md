@@ -1,81 +1,21 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title:  HK as an International Carbon Trading Hub
+description: 
+img: assets/img/carbon_trading_hub.png
 importance: 3
-category: work
+category: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Many corporate executives used to view environmental, social and governance (ESG) initiatives as sole contributions to society and often considered them as resource drains or corporate expenses. Recent research and company reports show that firms’ ESG and green finance strategies could be profitable and yet socially beneficial. For instance, ESG strategies can help companies win the war for talents, connect with clients, create social media sound bites, and display their concerns for local communities. As such, many companies have recently engaged in sustainable or green investment and financing. Critics are concerned about the potentially distortive effects of companies’ green investment and funding strategies. Some simply refer to them as “green washing” activities and remain doubtful about their actual social benefit.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This study aims to share some preliminary views about developing Hong Kong as a carbon trading hub based on other countries’ or regions’ policies and experiences. Carbon trading can be classified as either “compliance” or “voluntary”. According to the United Nations’ Framework Convention on Climate Change in 1992, carbon trading refers to a country, region or enterprise obtaining the right to emit pollutants. Twenty- nine years later, at the 2021 United Nations’ Climate Change Summit (COP26), governments and enterprises jointly formulated a path to achieve net zero emissions by 2050 in order to prevent the Earth from warming by more than 1.5°C. The global carbon price was $51.45 per ton of carbon dioxide by the end of 2021, but according to IHS Markit, the carbon allowance price is estimated to have to reach $147 per ton of CO2 in order to meet the 1.5°C target. In other words, the potential of carbon pricing is largely untapped, and most carbon prices are too low to drive large-scale decarbonization.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The suggested strategies are:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1. Facilitate Public Private Partnerships (PPP), Use Blockchain Technologies, and Articulate International Standards to Avoid Greenwashing
+2. Green Education: Include More Green Finance Courses in CEF Structure
+3. HKEX as an Agent Building an Official Platform and Standards for the Carbon Trading Market and Connect with GBA
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<a href="{{ '/assets/pdf/green_papers_2022_hwt_eng2_intl_carbon_trading_hub.pdf' | relative_url }}">Reference: HK as an International Carbon Trading Hub</a>
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
