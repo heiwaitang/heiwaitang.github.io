@@ -11,7 +11,7 @@ profile:
   image: hkaof-event-aof-edited.jpg
   image_circular: false # crops the image to make it circular
   address: 
-    <p>Room 335, Main Building, Pokfulam Road, HKU
+    <p>Room 335,Main Building,Pokfulam Road,HKU</p>
 
     <p>+852 3917 0029</p>
 

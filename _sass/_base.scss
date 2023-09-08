@@ -19,6 +19,11 @@ strong {
   color: var(--global-text-color);
 }
 
+// make title slightly larger
+.desc{
+  font-size: 1.2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -139,7 +144,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
@@ -1039,3 +1044,5 @@ nav[data-toggle="toc"] {
     padding-top: 0.5rem;
   }
 }
+
+
