@@ -94,16 +94,34 @@
                 <a class="nav-link" href="{{ '/assets/pdf/cv.pdf' | relative_url }}">{{ "cv" }}</a>
               </li>
 
-              {% if site.blog_nav_title %}
+              <!-- {% if site.blog_nav_title %} -->
               <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+              <!-- <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
                 <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
                   {%- if page.url contains 'blog' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
+              </li> -->
+              <!-- {%- endif %} -->
+
+               <!-- Chinese Op-Ed-->
+               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/chinese_op_ed' | relative_url }}"> 中文專欄
+                  {%- if page.permalink == '/' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
               </li>
-              {%- endif %}
+
+              <!-- English Op-Ed-->
+              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/english_op_ed' | relative_url }}"> Op-Ed
+                  {%- if page.permalink == '/' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
               
               {%- if site.enable_darkmode %}
 
