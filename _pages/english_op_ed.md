@@ -50,7 +50,7 @@ nav_order: 6
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
   {%- for project in sorted_posts -%}
-    <div class="card-body">
+   <div class="card-body">
       <div class="card h-100" lang_used="English">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>
