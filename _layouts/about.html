@@ -47,11 +47,19 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
-          <!-- Latest posts -->
+          <!-- Latest english op-ed -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/english_op_ed/' | relative_url }}" style="color: inherit;">latest op-ed</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
+          <br>
+
+          <!-- Latest Chinese op-ed -->
+          {% if page.latest_posts -%}
+          <h2><a href="{{ '/chinese_op_ed/' | relative_url }}" style="color: inherit;">最新中文專欄</a></h2>
+          {%- include latest_chinese_op_ed.html %}
+          {%- endif %}
+          <br>
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
