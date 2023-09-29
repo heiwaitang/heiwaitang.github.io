@@ -1429,7 +1429,15 @@ economic diversification agendas.</p>
     <!-- Hidden abstract block -->
     
     <div class="abstract hidden">
-      <p>This paper examines the impact of the Severe Acute Respiratory Syndrome (SARS) epidemic on China's trade. Using quarterly transaction-level trade data of all Chinese firms, we find that firms in regions with local transmission of SARS experienced lower import and export growth at both the intensive and extensive margins, compared to those in the unaffected regions. The affected firms' trade growth remained lower two years after SARS. Products that are more capital-intensive, skill-intensive, upstream in the supply chains, and differentiated experienced a smaller export decline but a stronger recovery. Small exporters were more likely to exit, slowing down trade recovery.</p>
+      <p>Using transaction-level data for all Chinese firms exporting between 2000 and 2006, we find that on average
+78% of exporters to a country in a given year are new exporters. Among these new exporters, an average of 60%
+stopped serving the same country the following year. These rates are higher if the destination country is a market
+with which Chinese firms are less familiar. We build a simple two-period model with imperfect information, in
+which beliefs about their foreign demand are determined by learning from neighbors. In the model, a high
+variance of the prior distribution of foreign demand induces firms to enter new markets. This is because the
+profit function is convex in perceived foreign demand due to the option of exiting, which insures against the risk
+of low demand realization. We then use our micro data to empirically examine several model predictions, and
+find evidence to support the hypothesis that firms’ high entries and exits are outcomes of their rational selfdiscovery of demand in an unfamiliar market.</p>
     </div>
     
 
@@ -1503,20 +1511,9 @@ economic diversification agendas.</p>
     <!-- Hidden abstract block -->
     
     <div class="abstract hidden">
-      <p>Since 2000, China and other Asian countries such as Bangladesh,
-Cambodia, India, and Vietnam have become important trade and investment partners with Sub-Saharan African countries. Some of these Asian
-trading partners have lost their own growth momentum, and there have
-also been concerns that their economic engagement may have reduced
-Sub-Saharan African countries’ local industrial capability, causing them to
-be more dependent on Asian economies. For Sub-Saharan Africa to tap
-into the trade-and-growth spiral, it needs to diversify—away from some
-of the traditional high-income economy trading partners, whose growth is
-slowing, and away from commodity exports, which often exhibit high
-price volatility. The growing middle class in and increasing demand from Asia, especially East Asia, along with the shifting structure of global value chains (GVCs), may offer new economic opportunities for Sub-Saharan Africa. This chapter
-assesses the value chain links between Sub-Saharan Africa and Asia, summarizing the current status and future potential of African products in
-emerging Asia. The study offers insights on how the region’s economies can
-expand their market potential and advance their industrialization and
-economic diversification agendas.</p>
+      <p>Recent studies have found that US tariffs on China have led to a significant welfare loss and significant increases in consumer prices in the US. This column, taken from a recent Vox eBook, studies firms’ equity market responses to the various tariff announcements by the US and Chinese governments in 2018 and 2019. The responses demonstrate that the structure of US–China trade is much more complex than the simplistic view of global trade that prompted the trade war, and that the winners and losers in the war depend on firms’ positioning in, and exposure to, the global value chains shared by the two countries.  
+
+</p>
     </div>
     
 
